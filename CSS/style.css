@@ -605,13 +605,13 @@ header .menu-toggle {
 }
 
 @media only screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 1em;
+    }
+    
     .content .main-content .post {
         height: auto;
-    }
-
-      .content .main-content.single h1,
-    .content .main-content.single .content-title {
-        font-size: 2em !important;
     }
 
     .content .main-content .post .post-image {
