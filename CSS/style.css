@@ -609,7 +609,7 @@ header .menu-toggle {
         height: auto;
     }
 
-    .content .main-content h1 {
+      .content .main-content.single .content-title {
         font-size: 2em;
     }
 
