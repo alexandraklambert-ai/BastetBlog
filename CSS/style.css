@@ -606,8 +606,10 @@ header .menu-toggle {
 
 @media only screen and (max-width: 600px) {
 
-    h1 {
-        font-size: 1em;
+   .content .main-content h1,
+    .content .main-content.single h1.content-title,
+    .content .main-content.single .content-title {
+        font-size: 1.8em !important;
     }
     
     .content .main-content .post {
