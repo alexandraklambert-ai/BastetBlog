@@ -610,6 +610,7 @@ header .menu-toggle {
     .content .main-content.single h1.content-title,
     .content .main-content.single .content-title {
         font-size: 1.9em !important;
+        width: 100%;
     }
     
     .content .main-content .post {
