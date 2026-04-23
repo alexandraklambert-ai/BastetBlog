@@ -609,6 +609,10 @@ header .menu-toggle {
         height: auto;
     }
 
+    .content .main-content h1 {
+        font-size: 2em;
+    }
+
     .content .main-content .post .post-image {
         width: 100%;
     }
