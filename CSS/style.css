@@ -669,7 +669,26 @@ header .menu-toggle {
      .post-slider .prev {
         left: 10px;
     }
-
+ .bibliography {
+        padding: 1.5rem 1rem !important;     /* Less padding */
+        margin: 2rem -1rem !important;       /* Full width */
+        border-left: none !important;        /* Remove side border */
+        border-top: 3px solid darkorange;    /* Top border instead */
+        text-align: left !important;         /* Left align */
+    }
+    
+    .bib-list {
+        padding-left: 0 !important;          /* No indent */
+        margin-left: 0 !important;
+    }
+    
+    .bib-list li {
+        margin-bottom: 1.2rem;
+        line-height: 1.5;                    /* Better spacing */
+        hyphens: auto;                       /* Word wrap */
+        word-wrap: break-word;
+        font-size: 0.9em;
+    }
 
 
 }
