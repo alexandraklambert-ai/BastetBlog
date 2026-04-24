@@ -419,6 +419,37 @@ header .menu-toggle {
     transition: all 0.5s;
   }
 
+  .bibliography {
+    background: rgba(255, 140, 0, 0.1);
+    padding: 2rem 3rem;
+    margin: 3rem 0;
+    border-left: 5px solid darkorange;
+    font-size: 0.95em;
+}
+
+.bib-list {
+    list-style-position: inside;
+    line-height: 1.7;
+    margin: 1.5rem 0 0 0;
+}
+
+.bib-list li {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.bib-list a {
+    color: #8a330bb7;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s;
+}
+
+.bib-list a:hover {
+    border-bottom-color: currentColor;
+    padding-left: 5px;
+}
+
 /* Footer */
 .footer {
     background: #303036;
